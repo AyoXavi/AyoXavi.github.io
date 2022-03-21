@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#control-form {
+    width: 300px;
+    margin: auto;
+}
+
+#control-form input {
+    box-sizing: border-box;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#control-form label {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+}
+
+#form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
